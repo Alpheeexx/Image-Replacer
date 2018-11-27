@@ -15,7 +15,7 @@ function cancer() {
   }
 
   var picture = '',
-    banners = document.getElementsByTagName('banner');
+    banners = document.getElementsByClassName('banner');;
 
   for (var i = 0; i < banners.length; i++) {
     rand = parseInt(Math.random() * pictures.length);
