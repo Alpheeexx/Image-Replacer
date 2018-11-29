@@ -1,6 +1,6 @@
 //Pls no
 
-pictures = ['https://i.ytimg.com/vi/gVEdQJ7qtJw/maxresdefault.jpg'];
+pictures = ['https://i.ytimg.com/vi/nfUoWBK5KzQ/maxresdefault.jpg'];
 console.log('Loading images');
 var picture = '',
   images = document.getElementsByTagName('img');
@@ -15,7 +15,7 @@ function cancer() {
   }
 
   var picture = '',
-    banners = document.getElementsByClassName('banner');
+    banners = document.getElementsByTagName('banner');
 
   for (var i = 0; i < banners.length; i++) {
     rand = parseInt(Math.random() * pictures.length);
