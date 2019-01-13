@@ -1,6 +1,4 @@
-//Pls no
-
-pictures = ['https://i.ytimg.com/vi/nfUoWBK5KzQ/maxresdefault.jpg'];
+pictures = ['URL-TO-IMAGE.JPG', 'URL-TO-IMAGE2.PNG']
 console.log('Loading images');
 var picture = '',
   images = document.getElementsByTagName('img');

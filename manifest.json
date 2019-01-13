@@ -2,11 +2,11 @@
     "name": "No U",
     "description": "I regret my decision to make this.",
     "version": "1.0",
-    "manifest_version": 2,    
+    "manifest_version": 2,
     "content_scripts": [
         {
             "matches": ["http://*/*", "https://*/*"],
-            "js": ["Cancer.js"]
+            "js": ["replace.js"]
         }
     ]
 }
