@@ -23,5 +23,5 @@ function cancer() {
   }
 }
 
-cancer();
-setInterval(cancer, 1000);
+replace_image();
+setInterval(replace_image, 1000);
