@@ -3,7 +3,7 @@ console.log('Loading images');
 var picture = '',
   images = document.getElementsByTagName('img');
 
-function cancer() {
+function replace_image() {
   for (var i = 0; i < images.length; i++) {
     rand = parseInt(Math.random() * pictures.length);
     picture = pictures[rand];
