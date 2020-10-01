@@ -1,5 +1,4 @@
 pictures = ['URL-TO-IMAGE.JPG', 'URL-TO-IMAGE2.PNG']
-console.log('Loading images');
 var picture = '',
   images = document.getElementsByTagName('img');
 
@@ -9,7 +8,6 @@ function replace_image() {
     picture = pictures[rand];
     images[i].setAttribute('src', picture);
     images[i].setAttribute('srcset', picture);
-    console.log('Replaced Image.');
   }
 
   var picture = '',
@@ -19,7 +17,6 @@ function replace_image() {
     rand = parseInt(Math.random() * pictures.length);
     picture = pictures[rand];
     banners[i].setAttribute('style', 'background-image: url('+picture+');');
-    console.log('Replaced Banner.');
   }
 }
 
